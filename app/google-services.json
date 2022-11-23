@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "870988147217",
+    "project_id": "white-label-store-21480",
+    "storage_bucket": "white-label-store-21480.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870988147217:android:d187c19ae8e010d2cb9fb0",
+        "android_client_info": {
+          "package_name": "br.com.fegssp.storewhitelabel.bike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870988147217-hiclmndqmuufd6n87k6kq6ihre6grjvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASwn1mm-kpAR3sF7fGRe5bHWRE3IZ3uXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870988147217-hiclmndqmuufd6n87k6kq6ihre6grjvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870988147217:android:0d14415b2f132418cb9fb0",
+        "android_client_info": {
+          "package_name": "br.com.fegssp.storewhitelabel.bike.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870988147217-hiclmndqmuufd6n87k6kq6ihre6grjvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASwn1mm-kpAR3sF7fGRe5bHWRE3IZ3uXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870988147217-hiclmndqmuufd6n87k6kq6ihre6grjvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870988147217:android:8200152a8668474ccb9fb0",
+        "android_client_info": {
+          "package_name": "br.com.fegssp.storewhitelabel.car"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870988147217-hiclmndqmuufd6n87k6kq6ihre6grjvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASwn1mm-kpAR3sF7fGRe5bHWRE3IZ3uXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870988147217-hiclmndqmuufd6n87k6kq6ihre6grjvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870988147217:android:1725e2456b5c09dacb9fb0",
+        "android_client_info": {
+          "package_name": "br.com.fegssp.storewhitelabel.car.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870988147217-hiclmndqmuufd6n87k6kq6ihre6grjvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASwn1mm-kpAR3sF7fGRe5bHWRE3IZ3uXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870988147217-hiclmndqmuufd6n87k6kq6ihre6grjvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
