@@ -1,0 +1,2 @@
+rootProject.name = "Store White Label"
+include ':app'
