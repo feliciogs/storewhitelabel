@@ -45,12 +45,16 @@ android {
             dimension 'product'
             applicationIdSuffix '.bike'
             manifestPlaceholders.appName = "BikeStore"
+
+            buildConfigField "String", "FIREBASE_FLAVOR_COLLECTION","\"bike\""
         }
 
         car{
             dimension 'product'
             applicationIdSuffix '.car'
             manifestPlaceholders.appName = "CarStore"
+
+            buildConfigField "String", "FIREBASE_FLAVOR_COLLECTION","\"car\""
         }
 
         client{
