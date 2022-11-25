@@ -6,7 +6,7 @@ import javax.inject.Inject
 
 class ProductRepository @Inject constructor(private val dataSource: ProductDataSource) {
 
-    suspend fun getProducts() : List<Product> = dataSource.getProducts()
+    suspend fun getProducts(): List<Product> = dataSource.getProducts()
 
     suspend fun uploadProductImage(imgUri: Uri): String = dataSource.uploadProductImage(imgUri)
 
