@@ -2,9 +2,8 @@ package br.com.fegssp.storewhitelabel.domain.usecase
 
 import android.net.Uri
 import br.com.fegssp.storewhitelabel.data.ProductRepository
-import javax.inject.Inject
 
-class UploadProductImageUseCaseImpl @Inject constructor(
+class UploadProductImageUseCaseImpl(
     private val productRepository: ProductRepository
 ): UploadProductImageUseCase {
 

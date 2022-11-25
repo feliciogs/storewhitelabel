@@ -2,9 +2,8 @@ package br.com.fegssp.storewhitelabel.domain.usecase
 
 import br.com.fegssp.storewhitelabel.data.ProductRepository
 import br.com.fegssp.storewhitelabel.domain.model.Product
-import javax.inject.Inject
 
-class GetProductsUseCaseImpl @Inject constructor(
+class GetProductsUseCaseImpl(
     val productRepository: ProductRepository
     ):GetProductsUseCase {
 
