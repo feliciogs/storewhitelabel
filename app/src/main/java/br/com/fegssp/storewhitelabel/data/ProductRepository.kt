@@ -2,8 +2,9 @@ package br.com.fegssp.storewhitelabel.data
 
 import android.net.Uri
 import br.com.fegssp.storewhitelabel.domain.model.Product
+import javax.inject.Inject
 
-class ProductRepository(private val dataSource: ProductDataSource) {
+class ProductRepository @Inject constructor(private val dataSource: ProductDataSource) {
 
     suspend fun getProducts() : List<Product> = dataSource.getProducts()
 

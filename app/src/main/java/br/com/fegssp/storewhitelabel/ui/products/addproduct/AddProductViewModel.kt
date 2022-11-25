@@ -9,9 +9,12 @@ import androidx.lifecycle.viewModelScope
 import br.com.fegssp.storewhitelabel.R
 import br.com.fegssp.storewhitelabel.domain.usecase.CreateProductUseCase
 import br.com.fegssp.storewhitelabel.util.fromCurrency
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class AddProductViewModel(
+@HiltViewModel
+class AddProductViewModel @Inject constructor(
     private val createProductUseCase: CreateProductUseCase
 ) : ViewModel() {
     private val _imageUriErrorResId = MutableLiveData<Int>()

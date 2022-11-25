@@ -6,12 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.fragment.app.viewModels
 import br.com.fegssp.storewhitelabel.databinding.FragmentAddProductBinding
 import br.com.fegssp.storewhitelabel.util.CurrencyTextWatcher
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.textfield.TextInputLayout
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class AddProductFragment : BottomSheetDialogFragment() {
 
     private var _binding: FragmentAddProductBinding? = null
@@ -22,7 +24,8 @@ class AddProductFragment : BottomSheetDialogFragment() {
             imgURI = uri
             binding.imgProduct.setImageURI(uri)
         }
-    private lateinit var viewModel: AddProductViewModel
+
+    private val viewModel: AddProductViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
