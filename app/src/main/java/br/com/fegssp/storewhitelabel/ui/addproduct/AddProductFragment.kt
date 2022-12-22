@@ -1,4 +1,4 @@
-package br.com.fegssp.storewhitelabel.ui.products.addproduct
+package br.com.fegssp.storewhitelabel.ui.addproduct
 
 import android.net.Uri
 import android.os.Bundle
