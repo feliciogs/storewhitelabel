@@ -14,8 +14,8 @@ interface DomainModule {
     fun bindCreateProductUseCase(useCaseImpl: CreateProductUseCaseImpl): CreateProductUseCase
 
     @Binds
-    fun bindCreateProductUseCase(useCaseImpl: GetProductsUseCaseImpl): GetProductsUseCase
+    fun bindGetProductUseCase(useCaseImpl: GetProductsUseCaseImpl): GetProductsUseCase
 
     @Binds
-    fun bindCreateProductUseCase(useCaseImpl: UploadProductImageUseCaseImpl): UploadProductImageUseCase
+    fun bindUploadImageUseCase(useCaseImpl: UploadProductImageUseCaseImpl): UploadProductImageUseCase
 }
